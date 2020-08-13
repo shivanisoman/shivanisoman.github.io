@@ -1,2 +1,2 @@
 # shivanisoman.github.io
-Personal Website
+Shivani Soman's personal website.
