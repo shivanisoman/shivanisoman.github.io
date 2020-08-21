@@ -354,6 +354,13 @@ footer {
     background-size: cover;
     padding: 15px;
     overflow: hidden;
+
+    h5 {
+        color: lighten($base-color, 50%);
+        font-weight: 500;
+        font-size: .50em;
+        margin-bottom: 15px;
+    }
 }
 
 #lead-content {
