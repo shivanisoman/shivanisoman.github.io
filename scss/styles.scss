@@ -232,12 +232,12 @@ header {
     display: none;
     text-align: right;
     width: 100%;
-    background: $background;
+    background: $base-color;
     font-size: 1.5em;
     padding-right: 15px;
     padding-top: 10px;
     cursor: pointer;
-    color: $base-color;
+    color: $background;
 
     span {
         font-size: 0.5em;
