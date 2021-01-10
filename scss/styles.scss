@@ -47,7 +47,7 @@ $border: #dcd9d9;
 
 // Define text colors
 $heading: #374054;
-$text: #74808a;
+$text: #4d5053;
 
 /*
     ---------------------
@@ -574,6 +574,13 @@ img {
         font-size: 0.9em;
         margin: 0;
     }
+    ul {
+        color: $text;
+        font-size: 0.9em;
+        margin: 0;
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }
 
 .vtimeline-point {
@@ -701,6 +708,7 @@ img {
     transform: translateY(-50%);
     margin-left: 300px;
     padding: 15px;
+    text-align: left;
 
     h3 {
         font-size: 1.5em;
@@ -713,6 +721,11 @@ img {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    a {
+        color: $base-color;
     }
 }
 
