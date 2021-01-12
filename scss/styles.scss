@@ -691,7 +691,7 @@ img {
 
 .project {
     position: relative;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
@@ -700,13 +700,18 @@ img {
 
 .project-image {
     float: left;
+     img {
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+     }
 }
 
 .project-info {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 300px;
+    margin-left: 310px;
     padding: 15px;
     text-align: left;
 
