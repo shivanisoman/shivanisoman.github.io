@@ -309,9 +309,9 @@ footer {
 .btn-rounded-white {
     display: inline-block;
     color: #fff;
-    padding: 15px 25px;
+    padding: 10px 20px;
     border: 3px solid #fff;
-    border-radius: 30px;
+    border-radius: 10px;
     @include transition();
 
     &:hover {
@@ -447,6 +447,27 @@ img {
     z-index: 10;
     bottom: 15px;
     color: #fff;
+    //transform: translate(50%, 50%);
+    ul {
+        text-align: center;
+    }
+
+    li {
+        display:inline-block;
+        *display:inline; /*IE7*/
+        *zoom:1; /*IE7*/
+        color:white;
+        font-size: 1.5em;
+    }
+    a {
+        display: block;
+        color: white;
+        padding: 10px;
+
+        &:hover {
+            color: $base-color;
+        }
+    }
 
     span {
         cursor: pointer;
@@ -459,11 +480,11 @@ img {
         text-align:center;
     }
 
-    i {
+    /* i {
         animation: pulsate 1.5s ease;
         animation-iteration-count: infinite;
         padding-top: 5px;;
-    }
+    } */
 }
 
 @keyframes pulsate {
